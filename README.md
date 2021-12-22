@@ -6,9 +6,10 @@ Expected output is a log of each epoch and its average cost, and a final output 
 
 Additional output are 
 `image.png/image2.png` and `testData.png/testData2.png` : sample images before/after ZCA whitening
+
 Additional output are misclassfied images with the format: `n_label_predicted.png`
 
-I also ended up writing code to convert my dataset of pngs into the same formatting used for MNIST datasets, within the "Convert_MNIST" directory (uneeded to execute the program).
+`Concert_MNIST` contains Python scripts to construct ubyte images and labels from a dataset of .pngs (not needed to execute the program)
 
 Dependencies: please run these commands before go build:
 ```
